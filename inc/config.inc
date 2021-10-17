@@ -1,7 +1,7 @@
 <?php
 /* config.inc Configuration for oAuth Demo project
  *
- * Katy Nicholson, last updated 01/09/2021
+ * Katy Nicholson, last updated 17/10/2021
  *
  * https://github.com/CoasterKaty
  * https://katytech.blog/
@@ -19,7 +19,7 @@ define('_MYSQL_PASS', 'DATABASE_PASSWORD');
 // oAuth details
 
 // tenant ID = only users in your tenant and guests can log in (unless you also select MS personal accounts), other tenants get "This user is not a guest in the target tenant" error
-// common = any tenant can log in, doesn't have to be a guest, but it breaks personal account login
+// common = any tenant can log in, doesn't have to be a guest
 //Scope needs to include the services you wish to access - at a minimum you'll need openid and offline_access for logging on to work. Add in user.read if you want to query user profile via Graph. Separate with %20.
 
 //define('_OAUTH_SERVER', 'https://login.microsoftonline.com/common/oauth2/v2.0/');
