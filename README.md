@@ -69,7 +69,7 @@ The display name is shown when you assign users in Azure AD, and the Value is wh
 
 In the index.php sample, you will notice $Auth->userRoles referred to – this will be an array of user roles. You can use the checkUserRole function in auth.php to verify if a user holds the role required for a specific part of your application, i.e. if ($Auth->checkUserRole(‘Role.Admin’)) { //admin only code here }
 
-Further Reading:
+## Further Reading:
 
 Microsoft identity platform and OAuth 2.0 authorization code flow – Microsoft identity platform | Microsoft Docs https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow
 
